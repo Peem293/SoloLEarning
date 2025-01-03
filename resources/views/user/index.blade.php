@@ -10,7 +10,7 @@
 
     <title>Solo Learning</title>
 
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/favicon.png') }}" type="image/x-icon">
 
     <link href="{{ asset('assets/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css" />
     <link
@@ -47,7 +47,6 @@
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Daftar Diklat:</h6>
                         <a class="collapse-item" href="">DIklat 1</a>
                         <a class="collapse-item" href="">Diklat 2</a>
                     </div>
@@ -58,12 +57,11 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-fw fa-wrench"></i>
-                    <span>Agenda</span>
+                    <span>Jadwal</span>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Agenda Anda:</h6>
                         <a class="collapse-item" href="">Jadwal Dan Status</a>
                         <a class="collapse-item" href="">Print Laporan</a>
                     </div>
@@ -95,7 +93,6 @@
                             </div>
                         </div>
                     </form>
-
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown no-arrow d-sm-none">
                             <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button"
@@ -118,7 +115,6 @@
                                 </form>
                             </div>
                         </li>
-
                         <li class="nav-item dropdown no-arrow mx-1">
                             <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -128,7 +124,6 @@
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
                                 aria-labelledby="alertsDropdown">
                                 <h6 class="dropdown-header">Pusat Peringatan</h6>
-
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
                                         {{-- <div
@@ -146,9 +141,7 @@
                                     Peringatan</a>
                             </div>
                         </li>
-
                         <div class="topbar-divider d-none d-sm-block"></div>
-
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -181,12 +174,10 @@
                 </nav>
 
                 <div class="container-fluid">
-
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800">
                         </h1>
                     </div>
-
                     <div class="row">
                         <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-primary shadow h-100 py-2">
@@ -247,7 +238,6 @@
                         </div>
                     </div>
 
-
                     <div class="row">
                         <div class="col-lg-6 mb-4">
                             <div class="card shadow mb-4">
@@ -283,13 +273,7 @@
                 </div>
             </div>
 
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <p>&copy; 2024. <b>SOLO Learning</b> IT_Support_Solo</p>
-                    </div>
-                </div>
-            </footer>
+            @include('fragment.footer')
         </div>
     </div>
 
@@ -325,13 +309,9 @@
 
     <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <script src="assets/vendor/jquery-easing/jquery.easing.min.js"></script>
-
     <script src="assets/js/sb-admin-2.min.js"></script>
-
     <script src="assets/vendor/chart.js/Chart.min.js"></script>
-
     <script src="assets/js/demo/chart-area-demo.js"></script>
     <script src="assets/js/demo/chart-pie-demo.js"></script>
 

@@ -6,7 +6,7 @@
     <title>SOLO LEarning</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="{{ asset('favicon.png') }}" />
+    <link rel="icon" type="image/png" href="{{ asset('assets/favicon.png') }}" />
     <link
         href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet" />
@@ -96,16 +96,16 @@
                                         <h1 class="text-white">
                                             We Spread Knowledge All the Time
                                         </h1>
-                                        <h3 class="text-white">
-                                            - We Create a <strong>Websites</strong> on Youtube -
-                                        </h3>
                                     </div>
-
-                                    <div class="home_btns m-top-40">
-                                        <a href="https://www.youtube.com/@codeworshipper?sub_confirmation=1"
-                                            class="btn btn-primary m-top-20" target="_blank">Subrek Now</a>
-                                        <a href="https://codeworshipper.netlify.app" class="btn btn-default m-top-20"
-                                            target="_blank">See more CW</a>
+                                </div>
+                                <div class="slid_item">
+                                    <div class="home_text">
+                                        <h2 class="text-white">
+                                            Welcome to <strong>Kita</strong>
+                                        </h2>
+                                        <h1 class="text-white">
+                                            We Spread Knowledge All the Time
+                                        </h1>
                                     </div>
                                 </div>
                                 <div class="slid_item">
@@ -121,32 +121,6 @@
                                         </h3>
                                     </div>
 
-                                    <div class="home_btns m-top-40">
-                                        <a href="https://www.youtube.com/@codeworshipper?sub_confirmation=1"
-                                            class="btn btn-primary m-top-20" target="_blank">Subrek Now</a>
-                                        <a href="https://codeworshipper.netlify.app" class="btn btn-default m-top-20"
-                                            target="_blank">See more CW</a>
-                                    </div>
-                                </div>
-                                <div class="slid_item">
-                                    <div class="home_text">
-                                        <h2 class="text-white">
-                                            Welcome to <strong>Kita</strong>
-                                        </h2>
-                                        <h1 class="text-white">
-                                            We Spread Knowledge All the Time
-                                        </h1>
-                                        <h3 class="text-white">
-                                            - We Create a <strong>Websites</strong> on Youtube -
-                                        </h3>
-                                    </div>
-
-                                    <div class="home_btns m-top-40">
-                                        <a href="https://www.youtube.com/@codeworshipper?sub_confirmation=1"
-                                            class="btn btn-primary m-top-20" target="_blank">Subrek Now</a>
-                                        <a href="https://codeworshipper.netlify.app" class="btn btn-default m-top-20"
-                                            target="_blank">See more CW</a>
-                                    </div>
                                 </div>
                             </div>
                         </div>

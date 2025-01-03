@@ -13,7 +13,7 @@
 
 <body>
     @include('fragment.alert')
-    <a href="" class="submit-btn back">Back</a>
+    <!--a href="" class="submit-btn back">Back</!--a-->
     <div class="form-container sign-in-form">
         <div class="form-box sign-in-box">
             <h2>Login</h2>

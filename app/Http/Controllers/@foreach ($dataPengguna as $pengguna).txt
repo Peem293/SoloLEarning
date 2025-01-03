@@ -1,0 +1,10 @@
+ @foreach ($dataPengguna as $pengguna)
+                                        <tr>
+                                            <td>{{ $pengguna['name'] }}</td>
+                                            <td>{{ $pengguna['email'] }}</td>
+                                            <td>{{ $pengguna['email_verified_at'] }}</td>
+                                            <td>{{ $pengguna['role'] }}</td>
+                                            <td>{{ $pengguna['created_at'] }}</td>
+                                            <td>{{ $pengguna['updated_at'] }}</td>
+                                        </tr>
+                                        @endforeach
